@@ -16,5 +16,6 @@ public class SimpleTestRun {
         driver.findElement(By.name("q")).sendKeys("seach");
         driver.findElement(By.name("q")).submit();
         assertEquals(true, true);
+        System.out.println("want to see if this line comes up in the output");
     }
 }
